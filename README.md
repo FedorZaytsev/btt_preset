@@ -1,7 +1,10 @@
 # Better Touch Tool preset with Yandex.Music
 Just another preset for Better touch tool, but this time with support for Yandex.Music. This preset aim is to make touch bar close to old F1-F12 bar on old macbooks, but with some new features.
 
+
+## Installation
 If you want to have only triggers (only buttons on touchbar, but not the better touch tool settings) import `lobster_triggers.bttpreset`. If you just want everything to work then import `lobster_trigger_settings.bttpreset`.
+
 
 ## The preset contain
 * Finder quick button
@@ -17,6 +20,10 @@ If you want to have only triggers (only buttons on touchbar, but not the better 
 
 ## Weather widget support
 To run a weather widget you would probably need to register on [openweathermap.org](https://openweathermap.org/appid) and change `appid` from `dae3a235f3b0b168acec4955c801ca47` to you new API key (APPID).
+
+Also you would likely need to download the following packages:
+* https:\\itunes.apple.com\ru\app\json-helper-for-applescript\id453114608?l=en&mt=12
+* https:\\itunes.apple.com\ru\pp\location-helper-for-applescript\id488536386?mt=12
 
 ## Yandex.Music support and limitations
 This preset has a basic support for Y.Music. It can:
