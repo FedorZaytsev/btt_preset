@@ -22,7 +22,7 @@ To run a weather widget you would probably need to register on [openweathermap.o
 This preset has a basic support for Y.Music. It can:
 * Play/Pause
 * Show current track
-* Swipe left/right to next/previous track
+* Swipe 2 fingers left/right to next/previous track
 
 
 However, there are some limitations:
