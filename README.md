@@ -1,2 +1,26 @@
-# btt_preset
-Just another preset for Better touch tool (with Yandex.Music support)
+# Better Touch Tool preset with Yandex.Music
+Just another preset for Better touch tool, but this time with support for Yandex.Music. This preset aim is to make touch bar close to old F1-F12 bar on old macbooks, but with some new features.
+
+## The preset contain
+* Finder quick button
+* Buttons for brightness up/down
+* Yandex.Music support
+* Current temperature
+* Lock button (coffee button)
+* Volume mute, lower, higher
+* Battery status
+* Time
+
+![Preset](touchshot.png)
+
+## Weather widget support
+To run a weather widget you would probably need to register on [openweathermap.org](https://openweathermap.org/appid) and change `appid` from `dae3a235f3b0b168acec4955c801ca47` to you new API key (APPID).
+
+## Yandex.Music support and limitations
+This preset has a basic support for Y.Music. It can play/pause and show current track. However, there are some limitations:
+* Works with Chrome browser only. It should work in Safari also, but you will need to change `Google Chrome` to `Safari` in the `Play/Pause` Button.
+* If there are more than one tab of Y.Music is present only first one (from browser perspective) will interact.
+* If no track is running, "play" will be shown as a name of a track.
+
+## Acknowledge
+This preset was made on base of vas3k's and toxblh's presets from [here](https://github.com/vas3k/btt-touchbar-presets). Also thanks vas3k for a great blog post [here](https://vas3k.com/blog/touchbar/).
